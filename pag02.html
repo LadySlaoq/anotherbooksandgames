@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Games</title>
+</head>
+
+<body>
+    <!--Barra de rolamento e cor de fundo-->
+    <style>
+        body {
+            background: #d2cff2;
+        }
+
+        *::-webkit-scrollbar {
+            width: 8px
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: #8681bc;
+        }
+
+        *::-webkit-scrollbar-track {
+            background: #edecff;
+        }
+    </style>
+    <!--Navabar-->
+    <nav class="navbar navbar-expand-lg justify-content-end" style="background: #8681bc ;">
+        <div class="container-fluid">
+            <div class="img container-fluid col-8 m-auto"><a class="navbar-brand" href="index.html"><img
+                        src="images/logo.png" alt="logo" width="60" height="60"></a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="color:#E7E4F5;" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active"
+                        style="color:#E7E4F5; font-family: 'Poppins', sans-serif; font-size: 3vh;" aria-current="page"
+                        href="index.html">Home</a>
+                    <a class="nav-link" style="color:#E7E4F5; font-family: 'Poppins', sans-serif; font-size: 3vh;"
+                        href="pag01.html">Livros</a>
+                    <a class="nav-link" style="color:#E7E4F5; font-family: 'Poppins', sans-serif; font-size: 3vh;"
+                        href="pag03.html">Sobre
+                        Nós</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <!--Cards-->
+    <!--Card01-->
+    <div class="row row-cols-1 row-cols-md-2 g-4 col-7 m-auto text-center">
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards19.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b>FNAF: Sister Location</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal01"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal01" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;">Five Nights at Freddy's: Sister
+                                        Location</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards27.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Projetista: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/real_scawthon">Scott Cawthon</a>
+                                        <br> Welcome to Circus Baby's Pizza World, where family fun and interactivity go
+                                        beyond anything you've seen at those *other* pizza places! Now hiring: Late
+                                        night technician. Must enjoy cramped spaces and be comfortable around active
+                                        machinery. Not responsible for death or dismemberment.
+                                        <br><b>Onde Comprar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://store.steampowered.com/app/506610/Five_Nights_at_Freddys_Sister_Location/">Steam</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card02-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards20.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b>FNAF 4</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal02"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal02" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;">Five Nights at Freddy's 4</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards28.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Projetista: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/real_scawthon">Scott Cawthon</a>
+                                        <br> In this last chapter of the Five Nights at Freddy's original story, you
+                                        must once again defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and
+                                        even worse things that lurk in the shadows.
+                                        <br><b>Onde Comprar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://store.steampowered.com/app/388090/Five_Nights_at_Freddys_4/">Steam</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card03-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards21.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b> The Joy of Creation</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal03"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal03" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> The Joy of Creation: Story Mode
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards29.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Projetista: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://gamejolt.com/@Nikson_Official">Nikson</a>
+                                        <br> It's the night of August 8th 2016, and Five Nights at Freddy's 2nd
+                                        Anniversary has passed. Celebrated worldwide, the hit indie horror series and
+                                        its creator have made themselves a place in modern culture and the hearts of
+                                        many.
+
+                                        <br> But success doesn't only bring fortune to your doorstep.
+
+                                        <br> Play through the eyes of Scott Cawthon and his family, as they try to
+                                        survive
+                                        inside their own home on the dreadful night that brought the horror into
+                                        reality, the scorched beings whose origin and motives are yet unknown. Find the
+                                        secrets lurking in the house, and uncover the mysterious events that led to the
+                                        cancellation of the next game in the series.
+                                        <br><b>Onde Baixar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://gamejolt.com/games/tjocsm/139218">Game Jolt</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card04-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards22.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b> Dark Deception</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal04"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal04" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> Dark Deception
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards30.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Desenvolvedores: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/glowstickentmt"> Glowstick Entertainment</a>
+                                        <br> Death awaits you in Dark Deception, a story-driven first-person horror maze
+                                        game. There's nowhere to hide & nowhere to catch your breath. Run or die - it's
+                                        your choice. Trapped in a realm of nightmarish mazes with a mysterious woman,
+                                        your only hope of survival is to find a way to escape.
+                                        <br><b>Onde Comprar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://store.steampowered.com/app/332950/Dark_Deception/"> Steam</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card05-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards23.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b> Stardew Valley</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal05"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal05" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> Stardew Valley
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards31.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Desenvolvedor: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/concernedape">ConcernedApe</a>
+                                        <br> Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas
+                                        de segunda-mão e algumas moedas, você parte para dar início a sua nova vida.
+                                        Será que você vai aprender a viver da terra, a transformar esse matagal em um
+                                        próspero lar?
+                                        <br><b>Onde Comprar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://store.steampowered.com/app/413150/Stardew_Valley/"> Steam</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card06-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards24.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b>Amor Doce</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal06"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal06" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> Amor Doce
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards32.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Desenvolvedor: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/beemoov">Beemoov</a>
+                                        <br> "Amor Doce" é um dating-game e o de maior sucesso do tópico, ele conta a
+                                        vida de docete, a menina nova da cidade que vive inúmeras aventuras junto com
+                                        seus paqueras e amigos.
+                                        <br><b>Onde Jogar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://www.amordoce.com"> Site Amor Doce</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card07-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards25.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b>Eldarya</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal07"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal07" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> Eldarya
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards33.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Desenvolvedor: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/beemoov">Beemoov</a>
+                                        <br> Eldarya é um mundo que está se tornando cada vez mais sombrio. Após a
+                                        quebra do Cristal, tudo tem ficado instável. No entanto, a Grande Guarda de Eel
+                                        tenta fazer o possível para ajudar os que precisam.
+                                        <br><b>Onde Jogar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://www.eldarya.com.br"> Site Eldarya</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Card08-->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/cards26.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background: #e5e3ff ;">
+                    <h5 class="card-title" style="font-family: 'Poppins', sans-serif;"><b> Is It Love? Ryan</b></h5>
+                    <p class="card-text" style="font-family: 'Poppins', sans-serif;">Saiba mais sobre clicando abaixo.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal08"
+                        style="background:#8681bc;border: none; font-family: 'Poppins', sans-serif;">
+                        Clique aqui
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal08" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background: #e5e3ff ;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"
+                                        style="font-family: 'Poppins', sans-serif;"> Is It Love? Ryan
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="img" style="background: #e5e3ff ;"><img src="images/cards34.png" alt="..."
+                                        width="100%" height="100%"></div>
+                                <div class="modal-body"
+                                    style="background: #e5e3ff; font-family: 'Poppins', sans-serif;">
+                                    <p><b>Desenvolvedor: </b><a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://twitter.com/1492studio">1492 Studio</a>
+                                        <br> Ryan Carter is the CEO of Carter Corporation serving as the main love
+                                        interest within his story route and the half-brother of Jenny Blake. He later
+                                        became the father of the player's baby at the end of the second season. In other
+                                        characters' story route, Ryan serves as the supporting character.
+                                        <br><b>Onde Jogar: </b> <a target="_blank"
+                                            style="text-decoration:none;font-family: 'Poppins', sans-serif;color: #580F95 ; "
+                                            href="https://play.google.com/store/apps/details?id=net.isitlove.cartercorp.ryan&hl=pt_BR&gl=US">
+                                            Play store</a>
+                                    </p>
+                                </div>
+                                <div class="modal-footer" style="background: #e5e3ff ;">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        style="background: #8681bc; border: none;">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="card text-center m-auto" style="width: 18rem;background: #e5e3ff ;">
+        <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Poppins', sans-serif;">Alguma Recomendação?</h5>
+            <p class="card-text" style="font-family: 'Poppins', sans-serif;">Clique abaixo e responda o questionário.
+            </p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal09"
+                style="font-family: 'Poppins', sans-serif; background: #8681bc; border: none;">
+                Clique aqui
+            </button>
+            <!--Modal-->
+            <div class="modal fade" id="Modal09" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background: #e5e3ff ;">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel"
+                                style="font-family: 'Poppins', sans-serif;">Formulário</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background: #e5e3ff ;">
+                            <p style="font-family: 'Poppins', sans-serif;"><b> Seu e-mail:</b>
+                                <input type="email" name="e-mail" size="39"
+                                    style="background: #dad6ff ; border-radius: 6px;" /> <br>
+
+                                <br><b> Nome do Jogo:</b>
+                                <input type="text" name="e-mail" size="35"
+                                    style="background: #dad6ff ; border-radius: 6px;" /> <br>
+                                <br><b> Link de onde achar:</b>
+                                <input type="text" name="e-mail" size="30"
+                                    style="background: #dad6ff ; border-radius: 6px; " /> <br>
+                            </p>
+                        </div>
+                        <div class="modal-footer" style="background: #e5e3ff ;">
+                            <button class="btn btn-primary" data-bs-target="#exampleModal10" data-bs-toggle="modal"
+                                style="font-family: 'Poppins', sans-serif; background: #8681bc; border: none;">Confirmar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal10" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background: #e5e3ff ;">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2"
+                                style="font-family: 'Poppins', sans-serif;">Obrigado</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background: #e5e3ff ;">
+                            <p style="font-family: 'Poppins', sans-serif;"> Obrigado por Responder!!</p>
+                            <img src="images/dançando.gif" alt="..." style="border-radius: 6px;">
+                        </div>
+                        <div class="modal-footer" style="background: #e5e3ff ;">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                style="background: #8681bc; border: none;">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!--Footer-->
+    <footer class="page-footer p-5 col-12 m-auto"
+        style="background-color: #8681bc; font-family: 'Poppins', sans-serif;">
+        <div class="text-center" style="color: #E7E4F5;">
+            @2022 Copyright: SweetArt Dev - Maysa <br>
+            Para mais, contate-nos: sweetartdev@gmail.com
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
